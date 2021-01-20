@@ -28,12 +28,20 @@ public class CameraStart : MonoBehaviour
 
     public void PushStartHoukiCamera()
     {
+        // ボタン削除
         StartHoukiButton.SetActive(false);
+        // ボタンのテキストを削除
         HoukiInstruct.SetActive(false);
+        // タイマー表示
         Time.SetActive(true);
+        // カメラ起動
         HoukiCamera.SetActive(true);
         webCamTexture = new WebCamTexture();
         rawImage.texture = webCamTexture;
+        // 縦横のサイズを要求
+        // webCamTexture.requestedWidth = 810;
+        // webCamTexture.requestedHeight = 810;
+        // カメラ表示
         webCamTexture.Play();
     }
 }

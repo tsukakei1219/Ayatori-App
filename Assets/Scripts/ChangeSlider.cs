@@ -24,7 +24,7 @@ public class ChangeSlider : MonoBehaviour
     
     public void PushGageLoseButton()
     {
-        Slider.value -= 10;//Sliderのvalueをに+10
+        Slider.value -= 10;//Sliderのvalueをに-10
     }
 
 }
