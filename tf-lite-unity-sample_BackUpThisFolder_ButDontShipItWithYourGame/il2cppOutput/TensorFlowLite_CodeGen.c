@@ -1,0 +1,283 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+extern const RuntimeMethod* InterpreterOptions_OnErrorReporter_m6110B5D8F4D729DAC7D69BDD89104EEE67C47C21_RuntimeMethod_var;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// 0x00000001 System.Void TensorFlowLite.Interpreter::.ctor(System.Byte[],TensorFlowLite.InterpreterOptions)
+extern void Interpreter__ctor_m1A43DB9387D8C7BDC079E2AC3763068AD9A33079 (void);
+// 0x00000002 System.Void TensorFlowLite.Interpreter::Dispose()
+extern void Interpreter_Dispose_m9B2E5AD1BE82D301D68466F2B8B30DFC43BB0BC3 (void);
+// 0x00000003 System.Void TensorFlowLite.Interpreter::Invoke()
+extern void Interpreter_Invoke_m27BEB82CC3D116D041DADB806C4CB658440ED575 (void);
+// 0x00000004 System.Int32 TensorFlowLite.Interpreter::GetInputTensorCount()
+extern void Interpreter_GetInputTensorCount_m3A22CB3AAEC0FE41385B1E5BCB85313579288BEA (void);
+// 0x00000005 System.Void TensorFlowLite.Interpreter::SetInputTensorData(System.Int32,System.Array)
+extern void Interpreter_SetInputTensorData_m2AC0ACBD2C6EAC1A1EFE1A68E853D89216F61494 (void);
+// 0x00000006 System.Void TensorFlowLite.Interpreter::ResizeInputTensor(System.Int32,System.Int32[])
+extern void Interpreter_ResizeInputTensor_m943CE79727660A8C2CEF98883A529D6222F7D1F7 (void);
+// 0x00000007 System.Void TensorFlowLite.Interpreter::AllocateTensors()
+extern void Interpreter_AllocateTensors_m13947A279A64A11DA57BF5A461A4B14D1B560B5F (void);
+// 0x00000008 System.Int32 TensorFlowLite.Interpreter::GetOutputTensorCount()
+extern void Interpreter_GetOutputTensorCount_mEB2167D1BF746067147F86FC14CD9F689B18E391 (void);
+// 0x00000009 System.Void TensorFlowLite.Interpreter::GetOutputTensorData(System.Int32,System.Array)
+extern void Interpreter_GetOutputTensorData_m95B9AC154860D6D9D0B8BE8A9D32FEF0E9EA78BF (void);
+// 0x0000000A TensorFlowLite.Interpreter_TensorInfo TensorFlowLite.Interpreter::GetInputTensorInfo(System.Int32)
+extern void Interpreter_GetInputTensorInfo_mC539E236C437E48D35DD0E1AE15A51201BD2B6D6 (void);
+// 0x0000000B TensorFlowLite.Interpreter_TensorInfo TensorFlowLite.Interpreter::GetOutputTensorInfo(System.Int32)
+extern void Interpreter_GetOutputTensorInfo_mD6E66AE52A6F674E44F7A6C229A3F1DCB06D7EF7 (void);
+// 0x0000000C System.String TensorFlowLite.Interpreter::GetTensorName(System.IntPtr)
+extern void Interpreter_GetTensorName_m2FAEB45F5C88561D38300900B6594AC29D33EFDB (void);
+// 0x0000000D TensorFlowLite.Interpreter_TensorInfo TensorFlowLite.Interpreter::GetTensorInfo(System.IntPtr)
+extern void Interpreter_GetTensorInfo_m6C95AA9C946EDD07107CC7F34C64CB0EF684F68A (void);
+// 0x0000000E System.Void TensorFlowLite.Interpreter::ThrowIfError(TensorFlowLite.Interpreter_Status)
+extern void Interpreter_ThrowIfError_m312857D297E506696B0870E8101521DAD360EC4E (void);
+// 0x0000000F System.IntPtr TensorFlowLite.Interpreter::TfLiteModelCreate(System.IntPtr,System.Int32)
+extern void Interpreter_TfLiteModelCreate_mA46E7607B62078E0D2E010D4EC02730271E521D9 (void);
+// 0x00000010 System.Void TensorFlowLite.Interpreter::TfLiteModelDelete(System.IntPtr)
+extern void Interpreter_TfLiteModelDelete_m48BDCF1D59812B32258AA660D4FE33DFDCB757B7 (void);
+// 0x00000011 System.IntPtr TensorFlowLite.Interpreter::TfLiteInterpreterCreate(System.IntPtr,System.IntPtr)
+extern void Interpreter_TfLiteInterpreterCreate_mC7A0D4FEB08AD9CB11DDED77AF74ACFBC1D604C4 (void);
+// 0x00000012 System.Void TensorFlowLite.Interpreter::TfLiteInterpreterDelete(System.IntPtr)
+extern void Interpreter_TfLiteInterpreterDelete_m2423D2A1C651B8225D497604A6EC095E4D2658BD (void);
+// 0x00000013 System.Int32 TensorFlowLite.Interpreter::TfLiteInterpreterGetInputTensorCount(System.IntPtr)
+extern void Interpreter_TfLiteInterpreterGetInputTensorCount_m854A424EBE00EE42E3EFAF622369F020D58BBD3C (void);
+// 0x00000014 System.IntPtr TensorFlowLite.Interpreter::TfLiteInterpreterGetInputTensor(System.IntPtr,System.Int32)
+extern void Interpreter_TfLiteInterpreterGetInputTensor_m26532664F52990529108C201444FF8F9539935BB (void);
+// 0x00000015 TensorFlowLite.Interpreter_Status TensorFlowLite.Interpreter::TfLiteInterpreterResizeInputTensor(System.IntPtr,System.Int32,System.Int32[],System.Int32)
+extern void Interpreter_TfLiteInterpreterResizeInputTensor_mFAC85ACC0485323EA6C7F3F4C0BFDAD904F154EC (void);
+// 0x00000016 TensorFlowLite.Interpreter_Status TensorFlowLite.Interpreter::TfLiteInterpreterAllocateTensors(System.IntPtr)
+extern void Interpreter_TfLiteInterpreterAllocateTensors_m79533589669386983ED0B7D153857C78C028A1FC (void);
+// 0x00000017 TensorFlowLite.Interpreter_Status TensorFlowLite.Interpreter::TfLiteInterpreterInvoke(System.IntPtr)
+extern void Interpreter_TfLiteInterpreterInvoke_m3FF8ADDE8AAB4837EA16766BA4936ADFE0D036FA (void);
+// 0x00000018 System.Int32 TensorFlowLite.Interpreter::TfLiteInterpreterGetOutputTensorCount(System.IntPtr)
+extern void Interpreter_TfLiteInterpreterGetOutputTensorCount_mDDBAC66DDC3071403D567FA10BC2186057ED746E (void);
+// 0x00000019 System.IntPtr TensorFlowLite.Interpreter::TfLiteInterpreterGetOutputTensor(System.IntPtr,System.Int32)
+extern void Interpreter_TfLiteInterpreterGetOutputTensor_mD07695B3662A9C48F52BED82E5F82E090B7B4841 (void);
+// 0x0000001A TensorFlowLite.Interpreter_DataType TensorFlowLite.Interpreter::TfLiteTensorType(System.IntPtr)
+extern void Interpreter_TfLiteTensorType_m59BE15CC30C17E80460764A9618E89DF867F622D (void);
+// 0x0000001B System.Int32 TensorFlowLite.Interpreter::TfLiteTensorNumDims(System.IntPtr)
+extern void Interpreter_TfLiteTensorNumDims_m86B139DB9349BDBAF7FAC766563FB9C712550755 (void);
+// 0x0000001C System.Int32 TensorFlowLite.Interpreter::TfLiteTensorDim(System.IntPtr,System.Int32)
+extern void Interpreter_TfLiteTensorDim_m71C7E164BEE0E1620128FBDC42D838F8FFE78092 (void);
+// 0x0000001D System.IntPtr TensorFlowLite.Interpreter::TfLiteTensorName(System.IntPtr)
+extern void Interpreter_TfLiteTensorName_m8F1D44C84F81673CF8C275CD242CCF8743EDF2AD (void);
+// 0x0000001E TensorFlowLite.Interpreter_QuantizationParams TensorFlowLite.Interpreter::TfLiteTensorQuantizationParams(System.IntPtr)
+extern void Interpreter_TfLiteTensorQuantizationParams_m2894A1E8CA740F0B55E68DA17A401120B117FF77 (void);
+// 0x0000001F TensorFlowLite.Interpreter_Status TensorFlowLite.Interpreter::TfLiteTensorCopyFromBuffer(System.IntPtr,System.IntPtr,System.Int32)
+extern void Interpreter_TfLiteTensorCopyFromBuffer_mC5FE238835CAC634FCABF6D98BFB098644B3076D (void);
+// 0x00000020 TensorFlowLite.Interpreter_Status TensorFlowLite.Interpreter::TfLiteTensorCopyToBuffer(System.IntPtr,System.IntPtr,System.Int32)
+extern void Interpreter_TfLiteTensorCopyToBuffer_m2FFAB7A9BD9B367EF7F3580E2B4B20E145B2ADC0 (void);
+// 0x00000021 System.String TensorFlowLite.Interpreter_TensorInfo::get_name()
+extern void TensorInfo_get_name_m12A02BBE5498510F8514582311EC92EF40ACA4E3_AdjustorThunk (void);
+// 0x00000022 System.Void TensorFlowLite.Interpreter_TensorInfo::set_name(System.String)
+extern void TensorInfo_set_name_m95BF31B0823F22BC9F0D2D5E8AED7891F5206A40_AdjustorThunk (void);
+// 0x00000023 TensorFlowLite.Interpreter_DataType TensorFlowLite.Interpreter_TensorInfo::get_type()
+extern void TensorInfo_get_type_m2AF23871CBF5611839C7CC8749D4030D944449A1_AdjustorThunk (void);
+// 0x00000024 System.Void TensorFlowLite.Interpreter_TensorInfo::set_type(TensorFlowLite.Interpreter_DataType)
+extern void TensorInfo_set_type_mFA3E29ADA3C65B5C5D33470896483A4CC28AF86A_AdjustorThunk (void);
+// 0x00000025 System.Int32[] TensorFlowLite.Interpreter_TensorInfo::get_shape()
+extern void TensorInfo_get_shape_mF1FE12BDCDED824AD6F6776024A9DB90E0AF5214_AdjustorThunk (void);
+// 0x00000026 System.Void TensorFlowLite.Interpreter_TensorInfo::set_shape(System.Int32[])
+extern void TensorInfo_set_shape_m817DF49CB60C301183BF4969894C5C5B3F26281F_AdjustorThunk (void);
+// 0x00000027 TensorFlowLite.Interpreter_QuantizationParams TensorFlowLite.Interpreter_TensorInfo::get_quantizationParams()
+extern void TensorInfo_get_quantizationParams_m9786D5A995A4FCEF5F5DF62DCC23A277FD86E80E_AdjustorThunk (void);
+// 0x00000028 System.Void TensorFlowLite.Interpreter_TensorInfo::set_quantizationParams(TensorFlowLite.Interpreter_QuantizationParams)
+extern void TensorInfo_set_quantizationParams_m1F928F5F5DC803255E88E918FA6D2DF4C0429946_AdjustorThunk (void);
+// 0x00000029 System.String TensorFlowLite.Interpreter_TensorInfo::ToString()
+extern void TensorInfo_ToString_m0535A4EDDCCC121E15280E48008A528FAD0F93BB_AdjustorThunk (void);
+// 0x0000002A System.String TensorFlowLite.Interpreter_QuantizationParams::ToString()
+extern void QuantizationParams_ToString_m1CF5F12CF56F7F7989EF8879B2A4EA5362A8245D_AdjustorThunk (void);
+// 0x0000002B System.Void TensorFlowLite.InterpreterOptions::set_threads(System.Int32)
+extern void InterpreterOptions_set_threads_m2F9C92C8B6BF2D685110340BFB008C5C6CB6B9F2 (void);
+// 0x0000002C System.Void TensorFlowLite.InterpreterOptions::set_useNNAPI(System.Boolean)
+extern void InterpreterOptions_set_useNNAPI_mC47357B62C5A967545AADA11896A3E2FF2D0CEDF (void);
+// 0x0000002D System.Void TensorFlowLite.InterpreterOptions::.ctor()
+extern void InterpreterOptions__ctor_m5B1CA65B5154E8C3C29CA054C40C913BFF2A2576 (void);
+// 0x0000002E System.Void TensorFlowLite.InterpreterOptions::Dispose()
+extern void InterpreterOptions_Dispose_mA64A85AF79E71AEBC9087CF578854B6590EB1900 (void);
+// 0x0000002F System.Void TensorFlowLite.InterpreterOptions::AddGpuDelegate()
+extern void InterpreterOptions_AddGpuDelegate_mA6E34E7ECDA48A7E12CA417008B99B372540AFAC (void);
+// 0x00000030 System.Void TensorFlowLite.InterpreterOptions::OnErrorReporter(System.IntPtr,System.String,System.IntPtr)
+extern void InterpreterOptions_OnErrorReporter_m6110B5D8F4D729DAC7D69BDD89104EEE67C47C21 (void);
+// 0x00000031 TensorFlowLite.IGpuDelegate TensorFlowLite.InterpreterOptions::CreateGpuDelegate()
+extern void InterpreterOptions_CreateGpuDelegate_m7C4BDB2589970BD48E718FE0F10F60EFA78B2A29 (void);
+// 0x00000032 System.IntPtr TensorFlowLite.InterpreterOptions::TfLiteInterpreterOptionsCreate()
+extern void InterpreterOptions_TfLiteInterpreterOptionsCreate_m752C0FB6F3EF2D8C96FD223F04C59A41B4E46000 (void);
+// 0x00000033 System.Void TensorFlowLite.InterpreterOptions::TfLiteInterpreterOptionsDelete(System.IntPtr)
+extern void InterpreterOptions_TfLiteInterpreterOptionsDelete_mF1E8E47388F49BA6D208651422102D30BA1CE572 (void);
+// 0x00000034 System.Void TensorFlowLite.InterpreterOptions::TfLiteInterpreterOptionsSetNumThreads(System.IntPtr,System.Int32)
+extern void InterpreterOptions_TfLiteInterpreterOptionsSetNumThreads_m932D3ED9A984DAE40EBBBD806C88D839BDEE6C1A (void);
+// 0x00000035 System.Void TensorFlowLite.InterpreterOptions::TfLiteInterpreterOptionsAddDelegate(System.IntPtr,System.IntPtr)
+extern void InterpreterOptions_TfLiteInterpreterOptionsAddDelegate_m0C39F574280706800167BADE96CA1E1830C21F4C (void);
+// 0x00000036 System.Void TensorFlowLite.InterpreterOptions::TfLiteInterpreterOptionsSetErrorReporter(System.IntPtr,TensorFlowLite.InterpreterOptions_ErrorReporterDelegate,System.IntPtr)
+extern void InterpreterOptions_TfLiteInterpreterOptionsSetErrorReporter_mE1161446AD6D1B4C5BC2390C9EE8091B6A80237D (void);
+// 0x00000037 System.Void TensorFlowLite.InterpreterOptions_ErrorReporterDelegate::.ctor(System.Object,System.IntPtr)
+extern void ErrorReporterDelegate__ctor_m78BDB1627D3C8D15A4690945FE9802CAF889D9F0 (void);
+// 0x00000038 System.Void TensorFlowLite.InterpreterOptions_ErrorReporterDelegate::Invoke(System.IntPtr,System.String,System.IntPtr)
+extern void ErrorReporterDelegate_Invoke_m9FFBAC34D7D332DA958E343C148A8CC5F4F3B1AE (void);
+// 0x00000039 System.IAsyncResult TensorFlowLite.InterpreterOptions_ErrorReporterDelegate::BeginInvoke(System.IntPtr,System.String,System.IntPtr,System.AsyncCallback,System.Object)
+extern void ErrorReporterDelegate_BeginInvoke_m713665CB9D7752A04093ED7DD854A7EE43820170 (void);
+// 0x0000003A System.Void TensorFlowLite.InterpreterOptions_ErrorReporterDelegate::EndInvoke(System.IAsyncResult)
+extern void ErrorReporterDelegate_EndInvoke_m2A272B9372AECC35FFEDC88CE15640ECB41DEC26 (void);
+// 0x0000003B System.IntPtr TensorFlowLite.IGpuDelegate::get_Delegate()
+static Il2CppMethodPointer s_methodPointers[59] = 
+{
+	Interpreter__ctor_m1A43DB9387D8C7BDC079E2AC3763068AD9A33079,
+	Interpreter_Dispose_m9B2E5AD1BE82D301D68466F2B8B30DFC43BB0BC3,
+	Interpreter_Invoke_m27BEB82CC3D116D041DADB806C4CB658440ED575,
+	Interpreter_GetInputTensorCount_m3A22CB3AAEC0FE41385B1E5BCB85313579288BEA,
+	Interpreter_SetInputTensorData_m2AC0ACBD2C6EAC1A1EFE1A68E853D89216F61494,
+	Interpreter_ResizeInputTensor_m943CE79727660A8C2CEF98883A529D6222F7D1F7,
+	Interpreter_AllocateTensors_m13947A279A64A11DA57BF5A461A4B14D1B560B5F,
+	Interpreter_GetOutputTensorCount_mEB2167D1BF746067147F86FC14CD9F689B18E391,
+	Interpreter_GetOutputTensorData_m95B9AC154860D6D9D0B8BE8A9D32FEF0E9EA78BF,
+	Interpreter_GetInputTensorInfo_mC539E236C437E48D35DD0E1AE15A51201BD2B6D6,
+	Interpreter_GetOutputTensorInfo_mD6E66AE52A6F674E44F7A6C229A3F1DCB06D7EF7,
+	Interpreter_GetTensorName_m2FAEB45F5C88561D38300900B6594AC29D33EFDB,
+	Interpreter_GetTensorInfo_m6C95AA9C946EDD07107CC7F34C64CB0EF684F68A,
+	Interpreter_ThrowIfError_m312857D297E506696B0870E8101521DAD360EC4E,
+	Interpreter_TfLiteModelCreate_mA46E7607B62078E0D2E010D4EC02730271E521D9,
+	Interpreter_TfLiteModelDelete_m48BDCF1D59812B32258AA660D4FE33DFDCB757B7,
+	Interpreter_TfLiteInterpreterCreate_mC7A0D4FEB08AD9CB11DDED77AF74ACFBC1D604C4,
+	Interpreter_TfLiteInterpreterDelete_m2423D2A1C651B8225D497604A6EC095E4D2658BD,
+	Interpreter_TfLiteInterpreterGetInputTensorCount_m854A424EBE00EE42E3EFAF622369F020D58BBD3C,
+	Interpreter_TfLiteInterpreterGetInputTensor_m26532664F52990529108C201444FF8F9539935BB,
+	Interpreter_TfLiteInterpreterResizeInputTensor_mFAC85ACC0485323EA6C7F3F4C0BFDAD904F154EC,
+	Interpreter_TfLiteInterpreterAllocateTensors_m79533589669386983ED0B7D153857C78C028A1FC,
+	Interpreter_TfLiteInterpreterInvoke_m3FF8ADDE8AAB4837EA16766BA4936ADFE0D036FA,
+	Interpreter_TfLiteInterpreterGetOutputTensorCount_mDDBAC66DDC3071403D567FA10BC2186057ED746E,
+	Interpreter_TfLiteInterpreterGetOutputTensor_mD07695B3662A9C48F52BED82E5F82E090B7B4841,
+	Interpreter_TfLiteTensorType_m59BE15CC30C17E80460764A9618E89DF867F622D,
+	Interpreter_TfLiteTensorNumDims_m86B139DB9349BDBAF7FAC766563FB9C712550755,
+	Interpreter_TfLiteTensorDim_m71C7E164BEE0E1620128FBDC42D838F8FFE78092,
+	Interpreter_TfLiteTensorName_m8F1D44C84F81673CF8C275CD242CCF8743EDF2AD,
+	Interpreter_TfLiteTensorQuantizationParams_m2894A1E8CA740F0B55E68DA17A401120B117FF77,
+	Interpreter_TfLiteTensorCopyFromBuffer_mC5FE238835CAC634FCABF6D98BFB098644B3076D,
+	Interpreter_TfLiteTensorCopyToBuffer_m2FFAB7A9BD9B367EF7F3580E2B4B20E145B2ADC0,
+	TensorInfo_get_name_m12A02BBE5498510F8514582311EC92EF40ACA4E3_AdjustorThunk,
+	TensorInfo_set_name_m95BF31B0823F22BC9F0D2D5E8AED7891F5206A40_AdjustorThunk,
+	TensorInfo_get_type_m2AF23871CBF5611839C7CC8749D4030D944449A1_AdjustorThunk,
+	TensorInfo_set_type_mFA3E29ADA3C65B5C5D33470896483A4CC28AF86A_AdjustorThunk,
+	TensorInfo_get_shape_mF1FE12BDCDED824AD6F6776024A9DB90E0AF5214_AdjustorThunk,
+	TensorInfo_set_shape_m817DF49CB60C301183BF4969894C5C5B3F26281F_AdjustorThunk,
+	TensorInfo_get_quantizationParams_m9786D5A995A4FCEF5F5DF62DCC23A277FD86E80E_AdjustorThunk,
+	TensorInfo_set_quantizationParams_m1F928F5F5DC803255E88E918FA6D2DF4C0429946_AdjustorThunk,
+	TensorInfo_ToString_m0535A4EDDCCC121E15280E48008A528FAD0F93BB_AdjustorThunk,
+	QuantizationParams_ToString_m1CF5F12CF56F7F7989EF8879B2A4EA5362A8245D_AdjustorThunk,
+	InterpreterOptions_set_threads_m2F9C92C8B6BF2D685110340BFB008C5C6CB6B9F2,
+	InterpreterOptions_set_useNNAPI_mC47357B62C5A967545AADA11896A3E2FF2D0CEDF,
+	InterpreterOptions__ctor_m5B1CA65B5154E8C3C29CA054C40C913BFF2A2576,
+	InterpreterOptions_Dispose_mA64A85AF79E71AEBC9087CF578854B6590EB1900,
+	InterpreterOptions_AddGpuDelegate_mA6E34E7ECDA48A7E12CA417008B99B372540AFAC,
+	InterpreterOptions_OnErrorReporter_m6110B5D8F4D729DAC7D69BDD89104EEE67C47C21,
+	InterpreterOptions_CreateGpuDelegate_m7C4BDB2589970BD48E718FE0F10F60EFA78B2A29,
+	InterpreterOptions_TfLiteInterpreterOptionsCreate_m752C0FB6F3EF2D8C96FD223F04C59A41B4E46000,
+	InterpreterOptions_TfLiteInterpreterOptionsDelete_mF1E8E47388F49BA6D208651422102D30BA1CE572,
+	InterpreterOptions_TfLiteInterpreterOptionsSetNumThreads_m932D3ED9A984DAE40EBBBD806C88D839BDEE6C1A,
+	InterpreterOptions_TfLiteInterpreterOptionsAddDelegate_m0C39F574280706800167BADE96CA1E1830C21F4C,
+	InterpreterOptions_TfLiteInterpreterOptionsSetErrorReporter_mE1161446AD6D1B4C5BC2390C9EE8091B6A80237D,
+	ErrorReporterDelegate__ctor_m78BDB1627D3C8D15A4690945FE9802CAF889D9F0,
+	ErrorReporterDelegate_Invoke_m9FFBAC34D7D332DA958E343C148A8CC5F4F3B1AE,
+	ErrorReporterDelegate_BeginInvoke_m713665CB9D7752A04093ED7DD854A7EE43820170,
+	ErrorReporterDelegate_EndInvoke_m2A272B9372AECC35FFEDC88CE15640ECB41DEC26,
+	NULL,
+};
+static const int32_t s_InvokerIndices[59] = 
+{
+	27,
+	23,
+	23,
+	10,
+	62,
+	62,
+	23,
+	10,
+	62,
+	1475,
+	1475,
+	18,
+	1476,
+	133,
+	1477,
+	25,
+	1478,
+	25,
+	123,
+	1477,
+	1479,
+	123,
+	123,
+	123,
+	1477,
+	123,
+	123,
+	1480,
+	1481,
+	1482,
+	1483,
+	1483,
+	14,
+	26,
+	10,
+	32,
+	14,
+	26,
+	1484,
+	1485,
+	14,
+	14,
+	32,
+	31,
+	23,
+	23,
+	23,
+	1486,
+	4,
+	711,
+	25,
+	1487,
+	1488,
+	1486,
+	102,
+	1489,
+	1490,
+	26,
+	15,
+};
+static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[1] = 
+{
+	{ 0x06000030, 2,  (void**)&InterpreterOptions_OnErrorReporter_m6110B5D8F4D729DAC7D69BDD89104EEE67C47C21_RuntimeMethod_var, 0 },
+};
+extern const Il2CppCodeGenModule g_TensorFlowLiteCodeGenModule;
+const Il2CppCodeGenModule g_TensorFlowLiteCodeGenModule = 
+{
+	"TensorFlowLite.dll",
+	59,
+	s_methodPointers,
+	s_InvokerIndices,
+	1,
+	s_reversePInvokeIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+};
